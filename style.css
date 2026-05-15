@@ -1,0 +1,118 @@
+nav{
+    background-color: black;
+    color:aliceblue;
+    height:150px;
+    width: 100%;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}nav ul li{
+    margin:20px;
+}nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.logo{
+    width: 60px;
+    height: 40px;
+    border: 5px blue;
+    border-radius: 30px;
+}
+/* .navbar{
+        background-color:black;
+        color:white;
+        display:flex;
+        align-items:center;
+        padding:10px;
+        text-decoration: none;
+    } */
+
+#About_me{
+    background-color: rgb(53, 115, 177);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 30px;
+}
+#About_me h1{
+    font-size: 3rem;
+}
+#About_me p{
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+#Project{
+    background-color: rgb(138, 185, 195);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 30px;
+}
+#Project{
+    font-size:2rem;
+}
+#Skills{
+    background-color:rgb(87, 165, 179);
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-size:3rem;
+    border-radius: 30px;
+}
+#Skills p{
+    color:brown;
+    font-size: 3rem;
+}
+#Education{
+    background-color:rgb(153, 173, 173);
+    justify-content: center;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+#footer{
+    background-color:black;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    
+}
+h1{
+    color:springgreen;
+    animation: infinite;
+    display: flex;
+    animation:alternate-reverse
+}
+body{
+    background-color: rgb(145, 46, 127);
+}
